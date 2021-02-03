@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Liangbiao/Liangbiao",
+    "pages/Jingluo/Jingluo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"images/tabBar/home.png",
+        "selectedIconPath":"images/tabBar/home_slctd.png",
+        "text": "首页"
+      },
+      {
+        "pagePath":"pages/Liangbiao/Liangbiao",
+        "iconPath":"images/tabBar/form.png",
+        "selectedIconPath":"images/tabBar/form_slctd.png",
+        "text": "量表测体质"
+      },
+      {
+        "pagePath":"pages/Jingluo/Jingluo",
+        "iconPath":"images/tabBar/beat.png",
+        "selectedIconPath":"images/tabBar/beat_slctd.png",
+        "text": "经络测体质"
+      }
+    ],
+    "position": "bottom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
